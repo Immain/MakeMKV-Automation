@@ -1,4 +1,3 @@
-# MakeMKV Automation
 <p align="center">
   <img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/makemkv_94419.png" alt="MakeMKV Automation Logo" width="200">
 </p>
