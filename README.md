@@ -4,7 +4,7 @@
 
 ## About <a name = "about"></a>
 
-Automate your movie collection hands-free with MakeMKV. This script streamlines the process of digitizing your physical media by:
+Are you tired of manually managing and converting your movie collection? Leverage the power of MakeMKV to streamline and automate the process of digitizing your movies. With this tool, you can effortlessly convert your physical media into high-quality MKV files. Automate your movie collection hands-free with MakeMKV. This script streamlines the process of digitizing your physical media by:
 
 1. Automatically detecting when a disk is inserted
 2. Ripping the content using MakeMKV
