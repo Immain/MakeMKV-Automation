@@ -42,7 +42,7 @@ These instructions will help you set up and run the MakeMKV automation script on
    ```
 
 5. Updating The Beta Key for MakeMKV:
-   Create settings.conf in ```~/.MakeMKV/settings.conf```. In ```~/.MakeMKV/settings.conf``` add the following
+   - Create settings.conf in ```~/.MakeMKV/settings.conf```. In ```~/.MakeMKV/settings.conf``` add the following
    ```
    app_Key = "T-******"
    ```
