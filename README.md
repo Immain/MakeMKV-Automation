@@ -11,11 +11,10 @@ Are you tired of manually managing and converting your movie collection? Leverag
 This update introduces an automated process for retrieving and updating the MakeMKV license key directly from the MakeMKV forum. Now, you don’t need to manually input the license key! The script automatically fetches and updates your MakeMKV key, ensuring the software remains activated.
 
 ## Key Update Process:
-The script checks for the key in the MakeMKV settings file (~/.MakeMKV/settings.conf) and will either:
+The script checks for the key in the MakeMKV settings file (~/.MakeMKV/settings.conf) and will:
 
 - Update an existing key if one is already present.
 - Add a new key if it does not exist.
-- The key is fetched from this URL: MakeMKV Forum Key.
 
 With this automation in place, you can effortlessly build your digital movie library without manual intervention. Simply insert a disk, and let the script handle the rest, freeing you up for other tasks while your collection grows.
 
