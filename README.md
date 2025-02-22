@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="https://cdn.icon-icons.com/icons2/1381/PNG/512/makemkv_94419.png" alt="MakeMKV Automation Logo" width="200">
-</p>
+# Make MKV Automation Script
 
 ## About <a name = "about"></a>
 
@@ -40,11 +38,3 @@ These instructions will help you set up and run the MakeMKV automation script on
    ```
    ./run.sh
    ```
-
-5. Updating The Beta Key for MakeMKV:
-   - Create settings.conf in ```~/.MakeMKV/settings.conf```.  In ```settings.conf``` add the following:
-   
-   ```
-   app_Key = "T-******"
-   ```
-   You can find the current makeMKV beta key [here](https://mysolutions.tech/makemkv-beta-key/)
