@@ -2,7 +2,7 @@
 
 # Variables
 BACKUP_DIR=/path/to/file
-DRIVE_PATH=/path/to/file
+DRIVE_PATH=/path/to/drive
 SETTINGS_FILE=~/.MakeMKV/settings.conf
 FORUM_URL="https://forum.makemkv.com/forum/viewtopic.php?t=1053"
 
@@ -70,6 +70,16 @@ eject_disk() {
     eject "$DRIVE_PATH"
 }
 
+# Function to prompt user to continue or exit
+prompt_continue() {
+    read -p "Do you want to continue with another disk? (y/n): " choice
+    case "$choice" in
+        y|Y ) return 0;;
+        n|N ) echo "Exiting script."; exit 0;;
+        * ) echo "Invalid input. Please enter 'y' or 'n'."; prompt_continue;;
+    esac
+}
+
 # Main execution loop
 while true; do
     # Update MakeMKV key before each iteration
@@ -79,7 +89,8 @@ while true; do
         if check_disk_ready; then
             if rip_disk; then
                 eject_disk
-                echo "Process completed. Waiting for next disk..."
+                echo "Process completed."
+                prompt_continue  # Ask user if they want to continue with another disk
             else
                 echo "Rip failed. Please check the disk and try again."
             fi
